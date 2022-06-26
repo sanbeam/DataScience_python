@@ -19,7 +19,7 @@ def main():
         print("Subject File Missing ")
         exit(-1)
        
-    FilePath = '/mnt/g/My\ Drive/school_session_tracker.xlsx'
+    FilePath = '/mnt/g/My Drive/school_session_tracker.xlsx'
 
     with open('subjects.csv', 'r') as fd:
         reader = csv.reader(fd)
